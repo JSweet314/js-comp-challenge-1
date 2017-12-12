@@ -1,0 +1,32 @@
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+section.links-section {
+  width: 60%;
+  height: 800px;
+  color: #ffffff;
+  float: left;
+}
+
+article {
+  width: 50rem;
+  height: 25rem;
+  background-color: #60B97f;
+  float: left;
+}
+
+div {
+  height: 25rem;
+  width: 25rem;
+  float: left;
+  background-color: yellow;
+}
+
+section.image-carousel {
+  width: 40%;
+  height: 800px;
+  background-color: grey; 
+  float: right;
+}
