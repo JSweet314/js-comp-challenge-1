@@ -12,17 +12,34 @@ main {
   flex-direction: column;
 }
 
+section {
+  background-color: #60B97F;
+  padding: 4rem;  
+}
+
+section img {
+  width: 1rem;
+}
+
 article {
-  height: 4.8rem;
+  height: 5.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article a {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+article a img {
+  width: 3rem;
+  vertical-align: middle;
 }
 
 h1 {
  font-size: 3rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-  padding: 1rem;
 }
 
 p {
@@ -42,18 +59,12 @@ a{
 ul {
   padding-top: 2rem;
   padding-left: 0rem;
-  
 }
 
 li a{
   border: 1px solid #ffffff;
   padding: 1rem;
-  margin-right: 4rem;
-}
-
-.intro {
-  background-color: #60B97F;
-  padding: 5rem;  
+  margin-right: 3rem;
 }
 
 .profile,
@@ -89,7 +100,7 @@ aside img {
 /* medium screen query >550px */
 
 @media screen and (min-width: 550px) {
-  
+
   html {
     font-size: 15px
   }
@@ -100,11 +111,11 @@ aside img {
   }
   
   article,
-  .intro {
+  section {
     height: 33.3vh;
   }
 
-  .intro {
+  section {
     background-color: #60B97F;
     padding: 0rem;
     width: 66.6%;
@@ -112,9 +123,13 @@ aside img {
 
   article{
     width: 33.3%;
-    display: flex;
+    min-width: 185px;
     justify-content: center;
-    align-items: center;
+  }
+
+  article a img {
+    display: block;
+    margin: 0 auto 1rem auto;
   }
   
   h1 {
@@ -162,8 +177,8 @@ aside img {
     margin: auto;
   }
 }
-  
-/* large screen media >760px   */
+
+/* large screen media >930px   */
 
 @media screen and (min-width: 760px) {
   main {
