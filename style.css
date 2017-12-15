@@ -171,13 +171,16 @@ aside img {
     float: left;
   }
 
-  .image-carousel {
-    float: right;
-  }
-
   aside img {
-    display: block;
     margin: 0;
     width: 40%;
   }
+}
+
+/* extra large screens */
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+
 }
