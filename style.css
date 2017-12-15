@@ -1,89 +1,116 @@
 html {
-  font-size: 10px;
-  font-family: sans-serif;
-  background-color: #60B97F;
-  color: #ffffff;
+    font-size: 10px;
+    color: #ffffff
 }
 
-.links-section {
-  display: flex;
-  flex-wrap: wrap;
+/* main content flexed */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-a {
-  text-decoration: none;
-  color: #ffffff;
+article {
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-ul {
-  margin: 5rem;
+h1 {
+ font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.4rem;
+  margin: 1rem 0;
 }
 
 li {
   display: inline;
 }
 
-article,
-div {
-  font-size: 3rem;
-}
-
-article {
-  width: 100%;
-  font-size: 2rem;
-  height: 40rem;
-  display: flex;
-  flex-direction: column;
-  
-}
-article p {
-  font-size: 2rem;
-  margin: 2rem;
-}
-
-article a {
-  margin-right: 1rem;
-  font-size: 3rem;
-  padding: 2rem;
-  border: 1px solid black;
-}
-
-h1 {
-  font-size: 4rem;
-  z-index: 2342134;
-}
-
-div {
-  margin: 0;
-  width: 100%;
-  height: 20rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-carousel {
-  height: 50rem;
-  /*width: 100%;*/
-  background-image: url("images/image-carousel-1.jpg");
-  background-size: cover;
-}
-
-.box1 {
-  background-color: #F3A13A;
+a{
   color: #ffffff;
+  text-decoration: none;
 }
 
-.box2,
-.box6 {
-  background-color: #408ABF;
+ul {
+  padding-top: 1rem;
+  padding-left: 6.8rem;
 }
 
-.box3 {
-  background-color: #E16351;
+li a{
+  border: 0.1rem solid #ffffff;
+  margin-left: 1rem;
+  padding: 1rem;
 }
 
-.box6,
-.box7 {
-  background-color: #E8713B;
+.intro {
+    width: 100%;
+    display: block;
+    background-color: #60B97F;
+    padding: 1rem;  
+
+}
+
+.profile,
+.portfolio {
+  background-color: #f3a13a;
+}
+
+.experience,
+.contact {
+  background-color: #408abf;
+}
+
+.education {
+  background-color: #e16351;
+}
+
+.social-menu {
+  background-color: #e8713b;
+}
+
+.blog {
+  background-color: #60B97F;
+}
+
+/* image carousel section */
+
+.image-carousel img {
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 13px
+  }
+
+  main {
+    width:60%;
+    float:left;
+    
+  }
+
+  .image-carousel {
+    width: 40%;
+    float: left;
+  }
+
+  article {
+    height: 35vh;
+    width: 33.3%
+  }
+
+  .intro {
+    width: 62.4%;
+    height: 30.5vh;
+  }
 }
