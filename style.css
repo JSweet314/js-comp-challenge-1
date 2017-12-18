@@ -212,7 +212,6 @@ aside {
   }
 }
 
-/* extra large screens */
 @media screen and (min-width: 1200px) {
   html {
     font-size: 15px;
@@ -232,5 +231,9 @@ aside {
   article,
   section {
     min-height: 270px;
-  }  
+  }
+
+  aside {
+    min-height: 810px;
+  }
 }
