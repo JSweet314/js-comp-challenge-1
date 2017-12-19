@@ -7,7 +7,7 @@ Static Comp 1 provides an opportunity to create a static page showcasing a topic
 
 ## Result 
 
-I began with a mobile styling, 320x568 pixels. I took advantage of the default block styling of the `<article>` elements which make up the boxes below the #intro `<section>`. The image carousel sits below and is given 100vh so when the user scrolls down the imagecarousel takes up the full screen.
+I began with a mobile styling, 320x568 pixels. I took advantage of the default block styling of the `<article>` elements which make up the boxes below the #intro `<section>`. The image carousel sits below and is given 100vh so when the user scrolls down the image carousel takes up the full screen.
 
 ![alt text](images/js-comp1-mobile.png)
 
