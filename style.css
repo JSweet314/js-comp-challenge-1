@@ -1,3 +1,6 @@
+/*CSS reset applied in separate file*/
+/*root element given a font size of 10px and wherever possible, styled elements utilize rem units to easity scale with media queries. */
+
 html {
   font-size: 10px;
   font-family: sans-serif;
@@ -7,6 +10,7 @@ html {
 
 /* base style - mobile 320x568 */
 
+/*cornerstone intro section*/
 section {
   background-color: #101113;
   padding: 1rem 0 2rem 1rem;
@@ -37,7 +41,8 @@ li {
   padding: 1rem;
   margin: 0 1rem 0 0;
 }
-  
+
+/* styling for subject boxes*/
 a{
   color: #ffffff;
   text-decoration: none;
@@ -59,6 +64,7 @@ article a img {
   vertical-align: middle;
 }
 
+/* color pallete for boxes*/
 .profile,
 .social-menu {
   background-color: #6e81a1;
@@ -128,6 +134,7 @@ aside {
   opacity: .5;
 }
 
+/*first media query, image carousel remains below main box section */
 @media screen and (min-width: 550px) {
 
   html {
@@ -189,7 +196,7 @@ aside {
   }
 }
 
-/* large screen media >930px   */
+/* large screen media >790px. main section floated left and left and right sections given appropriate display and widths to sit inline(-block) */
 
 @media screen and (min-width: 790px) {
   main {
@@ -212,6 +219,7 @@ aside {
   }
 }
 
+/* large screen media query - fonts and margins adjusted to improve readibility. min heights prevent buttons from disappearing in main intro section*/
 @media screen and (min-width: 1200px) {
   html {
     font-size: 15px;
