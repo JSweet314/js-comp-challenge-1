@@ -96,8 +96,8 @@ aside {
 
 .carousel-image {
   position: relative;
-  background-image: url("images/image-carousel-1.jpg");
-  background-size: 100% 100%;
+  background: url("images/image-carousel-1.jpg") no-repeat center center fixed;
+  background-size: cover;
   height: 100%;
   min-height: 568px;
 }
@@ -191,7 +191,7 @@ aside {
   }
  
   aside {
-    width: 60%;
+    width: 60vw;
     margin: auto;
   }
 }
@@ -200,13 +200,13 @@ aside {
 
 @media screen and (min-width: 790px) {
   main {
-    width: 60%;
+    width: 60vw;
     float: left;
   }
   
   aside {
     display: inline-block;
-    width: 40%;
+    width: 40vw;
   }
   
   .carousel-image {
