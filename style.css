@@ -8,7 +8,7 @@ html {
 /* base style - mobile 320x568 */
 
 section {
-  background-color: #60B97F;
+  background-color: #101113;
   padding: 1rem 0 2rem 1rem;
 }
 
@@ -23,6 +23,7 @@ h1 {
 p {
   font-size: 1.5rem;
   margin: 1rem 0;
+  color: #6d757d;
 }
 
 ul {
@@ -59,25 +60,25 @@ article a img {
 }
 
 .profile,
-.portfolio {
-  background-color: #f3a13a;
+.social-menu {
+  background-color: #6e81a1;
 }
 
 .experience,
 .contact {
-  background-color: #408abf;
+  background-color: #8c9db1;
 }
 
 .education {
-  background-color: #e16351;
+  background-color: #c8cac9;
 }
 
-.social-menu {
-  background-color: #e8713b;
+.portfolio {
+  background-color: #101113;
 }
 
 .blog {
-  background-color: #60B97F;
+  background-color: #6d757d;
 }
 
 /* image carousel section */
@@ -131,7 +132,7 @@ aside {
 
   html {
     font-size: 12px;
-    background-color:#60B97F; 
+    background-color:#6d757d; 
   }
   
   main {
@@ -173,7 +174,6 @@ aside {
   }
 
   p {
-    color: #D1F1E3;
     padding: 0rem 0rem 0 1rem;
     display: inline-block;
     width: 90%;
@@ -212,7 +212,6 @@ aside {
   }
 }
 
-/* extra large screens */
 @media screen and (min-width: 1200px) {
   html {
     font-size: 15px;
@@ -232,5 +231,9 @@ aside {
   article,
   section {
     min-height: 270px;
-  }  
+  }
+
+  aside {
+    min-height: 810px;
+  }
 }
